@@ -25,7 +25,7 @@
 }
 .text>h1{
     margin-top:18rem;
-    font-size: 80px;
+    font-size: 5rem;
 }
 .text>h1>span{
     color: blue;
@@ -36,7 +36,7 @@
 }
 
 .left-box> div> img{
-    width: 900px;
+    max-width: 900px;
 }
 
 .right-box{
