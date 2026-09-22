@@ -13,39 +13,34 @@
     width: 60%;
     display: flex;
     height: 100vh;
-    background-image: url(https://static.xx.fbcdn.net/rsrc.php/yB/r/83zWJdc6PJI.webp);
-    background-position: right;
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position-y: 5px ;
+    padding: 30px;
 }
 .text{
     /* border: 1px solid black; */
-    margin-left: 0px;
+   
     display: flex;
     flex-direction: column;
     font-family:  Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
 
 }
 .text>h1{
-    margin-top:20rem;
+    margin-top:18rem;
     font-size: 80px;
-    margin-left: 40px;
 }
 .text>h1>span{
     color: blue;
 }
 #logo{
     width: 150px;
-    margin-left: 30px;
-    margin-top: 40px;
+    margin: 0px;
 }
-.left-image>img{
-    width: 100%;
+
+.left-box> div> img{
+    width: 900px;
 }
 
 .right-box{
-    border: 1px solid rgb(165, 164, 164);
+    border-left: 1px solid rgb(165, 164, 164);
     width: 40%;
     align-content: center;
 }
@@ -97,6 +92,7 @@
     height: 60px;
     border-radius: 30px;
     font-size: 20px;
+    /* font-weight: bold; */
     color: black;
     border: none;
     background-color: white;
@@ -124,11 +120,11 @@
      display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+  
     
 }
 .meta-img>img{
-    width: 130px;
+    width: 100px;
     
     
 }
